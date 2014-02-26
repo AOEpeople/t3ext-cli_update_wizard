@@ -6,6 +6,13 @@ executable from the command line. That way it can be used in automated builds.
 
 It is only tested with TYPO3 6.2. Use at your own risk.
 
+Cloning the repository
+======================
+
+Please remember that the extension folder in typo3conf/ext has to be called `cli_update_wizard`
+
+    git clone https://github.com/czenker/t3ext-cli_update_wizard.git cli_update_wizard
+
 HowTo
 =====
 
