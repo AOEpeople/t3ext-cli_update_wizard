@@ -25,14 +25,14 @@
 
 namespace Xopn\CliUpdateWizard\Service;
 
-use TYPO3\CMS\Install\Controller\Action\Tool\UpdateWizard;
+use TYPO3\CMS\Install\Controller\Action\Tool\UpgradeWizard;
 
 /**
  * Adapter to have Service like interface for TYPO3\CMS\Install\Controller\Action\Tool\UpdateWizard
  *
- * @see TYPO3\CMS\Install\Controller\Action\Tool\UpdateWizard
+ * @see TYPO3\CMS\Install\Controller\Action\Tool\UpgradeWizard
  */
-class UpdateToolService extends UpdateWizard {
+class UpdateToolService extends UpgradeWizard {
 
 	/**
 	 * @var \Xopn\CliUpdateWizard\View\DummyView
