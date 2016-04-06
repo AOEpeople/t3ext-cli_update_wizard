@@ -1,0 +1,12 @@
+{
+    "name": "xopn/cli_update_wizard",
+    "type": "typo3-cms-extension",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Christian Zenker",
+            "email": "typo3@xopn.de"
+        }
+    ],
+    "require": {}
+}
