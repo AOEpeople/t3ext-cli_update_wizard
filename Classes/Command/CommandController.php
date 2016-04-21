@@ -32,6 +32,8 @@ use TYPO3\CMS\Extbase\Mvc\Controller\CommandController as ExtbaseCommandControll
  */
 abstract class CommandController extends ExtbaseCommandController {
 
+	const MAXIMUM_LINE_LENGTH = 79;
+
 	/**
 	 * @param string $text
 	 * @param array $arguments
@@ -47,4 +49,5 @@ abstract class CommandController extends ExtbaseCommandController {
 		$this->outputLine(str_repeat($seperator, self::MAXIMUM_LINE_LENGTH));
 	}
 
-} 
+}
+
