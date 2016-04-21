@@ -8,5 +8,10 @@
             "email": "typo3@xopn.de"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "Xopn\\CliUpdateWizard\\": "Classes"
+        }
+    },
     "require": {}
 }
